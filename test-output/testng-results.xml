@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T17:53:35 IST" name="Sauce Lab Login Test" finished-at="2025-07-09T17:53:48 IST" duration-ms="13595">
+    <groups>
+    </groups>
+    <test started-at="2025-07-09T17:53:35 IST" name="Validate Login" finished-at="2025-07-09T17:53:48 IST" duration-ms="13595">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:35 IST" name="setupBrowser" finished-at="2025-07-09T17:53:37 IST" duration-ms="2279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:37 IST" name="loadPages" finished-at="2025-07-09T17:53:38 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:38 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:40 IST" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:40 IST" name="loadPages" finished-at="2025-07-09T17:53:40 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:40 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:40 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_saucce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:40 IST" name="loadPages" finished-at="2025-07-09T17:53:40 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:40 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:41 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:41 IST" name="loadPages" finished-at="2025-07-09T17:53:41 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:41 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:41 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:41 IST" name="loadPages" finished-at="2025-07-09T17:53:41 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:41 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:47 IST" duration-ms="6229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="loadPages()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:47 IST" name="loadPages" finished-at="2025-07-09T17:53:47 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPages -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:47 IST" name="testLogin" data-provider="loginData" finished-at="2025-07-09T17:53:48 IST" duration-ms="511" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login should succeed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login should succeed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at tests.LoginTest.testLogin(LoginTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:tests.LoginTest@2cf3d63b]" started-at="2025-07-09T17:53:48 IST" name="teardownBrowser" finished-at="2025-07-09T17:53:48 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Validate Login -->
+  </suite> <!-- Sauce Lab Login Test -->
+</testng-results>

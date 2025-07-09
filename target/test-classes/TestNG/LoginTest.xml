@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sauce Lab Login Test" verbose="2"
+	preserve-order="true" >
+	<parameter name="browsername" value="chrome" />
+	<test name="Validate Login" >
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+</suite>

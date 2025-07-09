@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sauce Lab Login Test]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="Validate Login(failed)" verbose="2">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="teardownBrowser"/>
+          <include name="loadPages"/>
+          <include name="setupBrowser"/>
+          <include name="testLogin" invocation-numbers="5"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Validate Login(failed) -->
+</suite> <!-- Failed suite [Sauce Lab Login Test] -->
